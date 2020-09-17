@@ -1,0 +1,304 @@
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+.navbar-inner{
+  padding: 0px 20px 0px 20px;
+}
+.navbar-inner ul{
+  margin-left: 40px;
+}
+.navbar-right ul{
+  float: right;
+  padding: 25px 20px 10px 0px;
+}
+.navbar-right ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 30px;
+
+}
+.upper-text{
+  left: 0%;
+  top: 20%;
+  position: absolute;
+}
+.upper-text h1{
+  font-size: 50px;
+  margin-left: 80px;
+  line-height: 40px;
+}
+.upper-text h2{
+  font-size: 40px;
+}
+.bottom-text{
+  left: 30%;
+  bottom: 5%;
+  position: absolute;
+}
+.content-left img{
+  position: absolute;
+  top: 4%;
+  right: 10%;
+  z-index: 1; 
+  width: 80%;
+  height: 80%;
+}
+.content .content-right img{
+  width: 100px;
+  height: 100px;
+    position: absolute;
+    top: 10%;
+    left: 42%;
+}
+.product{
+  bottom: 5%;
+  left: 2%;
+  position: absolute;
+  margin-bottom: 5px;
+}
+.price-box{
+  width: 120px;
+}
+.price h2{
+   margin-left: 10px;
+   color: #999;
+   font-size: 18px;
+}
+.price h1{
+   margin-left: 10px;
+   margin-bottom: 5px;
+}
+.price h3{
+   margin-left: 10px;
+   
+}
+.product p{
+  text-align: center;
+  font-size: 12px;
+}
+.social-icone{
+  position: absolute;
+  bottom: 25px;
+  right: 10px;
+}
+#mian{
+  width: 100%;
+  padding: 30px 50px;
+}
+
+.product-bottom h3{
+  font-size: 17px;
+  font-weight: bold;
+}
+.product-bottom h5{
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+#main-2
+  {
+  padding: 0px 20px;
+}
+#main-2 img{
+  margin-bottom: -40px;
+}
+#main-2 h1{
+  font-size: 50px;
+  margin: 0 auto;
+  line-height: 100px;
+  text-align: center;
+}
+.abouts-img:before{
+    content: "";
+    position: absolute;
+    top: -15px;
+    right: 30px;
+ 
+}
+.use-sponsor-section .use-sponsored-boxes{
+  margin-left: -100px;
+}
+.use-sponsored-boxes img {
+  height: 80px;
+}
+.big{
+  padding-right: 50px;  
+}
+.big .th-class{
+  flex: 5;
+  margin-left: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+
+@media only screen and (max-width: 600px) {
+.navbar-inner{
+  padding: 0px 0px 0px 0px;
+}
+.navbar-inner ul{
+  margin-left: 20px;
+}
+.navbar-inner ul li{
+  margin: 0 6px;
+}
+.navbar-inner ul li a{
+  font-size: 13px;
+  padding: 1px;
+}
+.navbar-right ul{
+  float: right;
+  padding: 20px 20px 10px 0px;
+}
+.navbar-right ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 0px;
+
+}
+
+
+
+.bottom-text{
+  left: 20%;
+  bottom: 5%;
+  position: absolute;
+}
+.content-left img{
+  position: absolute;
+  top: 5%;
+  right: 12%;
+  z-index: 1; 
+  width: 70%;
+  height: 70%;
+}
+.content .content-right img{
+  width: 90px;
+  height: 90px;
+    position: absolute;
+    top: 10%;
+    left: 38%;
+}
+.product{
+  bottom: 5%;
+  left: 1%;
+  position: absolute;
+  margin-bottom: 5px;
+}
+.price-box{
+  width: 100px;
+}
+.price h2{
+   margin-left: 10px;
+   color: #999;
+   font-size: 18px;
+}
+.price h1{
+   margin-left: 10px;
+   margin-bottom: 5px;
+}
+.price h3{
+   margin-left: 10px;
+   
+}
+.product p{
+  text-align: center;
+  font-size: 12px;
+}
+.social-icone{
+  position: absolute;
+  bottom: 45px;
+  right: 10px;
+}
+.social-icone ul li i{
+  margin: 2px 0;
+  padding: 5px;
+}
+#mian{
+  width: 100%;
+  padding: 30px 0px;
+}
+
+.product-bottom h3{
+  font-size: 15px;
+  font-weight: bold;
+}
+.product-bottom h5{
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+.about-img:before{
+    background: #0062cc;;
+    content: "";
+    display: block;
+    max-width: 170px;
+    max-height: 170px;
+    position: absolute;
+    top: -15px;
+    left: 0px;
+    width: 70%;
+    height: 80%;
+    z-index: 1;
+   
+}
+.abouts-img:before{
+    content: "";
+    display: block;
+    max-width: 170px;
+    max-height: 170px;
+    position: absolute;
+    top: -15px;
+    right: 40px;
+    width: 70%;
+    height: 80%;
+  
+   
+}
+.about-img  img{
+  width: 80%;
+  height: 300px;
+    z-index: 5;
+    position: relative;
+}
+.abouts-img  img{
+  width: 80%;
+  height: 300px;
+    z-index: 5;
+    position: relative;
+}
+#nike-about .row{
+  margin: 0px 50px;
+}
+.use-sponsor-section {
+  margin-top: -120px;
+}
+.use-sponsor-section .use-sponsored-boxes{
+  margin-left: 0px;
+}
+.use-sponsored-boxes img {
+  height: 60px;
+}
+.big{
+  padding-right: 0px;  
+}
+.big .s-class form{
+
+  width: 273px;
+  height: 480px;
+ 
+}
+.big .th-class{
+  flex: 6;
+  margin-left: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+}
